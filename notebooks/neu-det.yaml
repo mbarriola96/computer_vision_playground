@@ -1,0 +1,10 @@
+# neu-det.yaml
+# Rutas absolutas y planas (no anidadas)
+train: C:/Users/mbarr/OneDrive/Desktop/proyectos_personales/computer_vision_playground/data/NEU-DET/train/images
+val: C:/Users/mbarr/OneDrive/Desktop/proyectos_personales/computer_vision_playground/data/NEU-DET/validation/images
+
+# Si tus etiquetas están en "annotations_yolo", YOLO las encontrará automáticamente
+# siempre que tengan el mismo nombre que las imágenes (e.g. 001.txt ↔ 001.jpg).
+
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
